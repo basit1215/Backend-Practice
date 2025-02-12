@@ -1,0 +1,11 @@
+{
+  "name": "class-02",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdul Basit",
+  "license": "ISC",
+  "description": ""
+}
