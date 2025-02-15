@@ -27,7 +27,17 @@ const fs = require('node:fs');
 //     else  console.log("File copied!");
 // })
 
-fs.unlink("hello.txt", function(err){
-    if (err) console.error(err);
-    else  console.log("File deleted!");
-})
+// fs.unlink("hello.txt", function(err){
+//     if (err) console.error(err);
+//     else  console.log("File deleted!");
+// })
+
+// fs.rmdir("./copy", {recursive: true}, function(err){
+//     if (err) console.error(err);
+//     else  console.log("Directory deleted!");
+// })
+
+// fs.rm("./copy", {recursive: true}, function(err){
+//     if (err) console.error(err);
+//     else  console.log("Directory deleted!");
+// })
