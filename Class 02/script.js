@@ -41,3 +41,11 @@ const fs = require('node:fs');
 //     if (err) console.error(err);
 //     else  console.log("Directory deleted!");
 // })
+
+const http = require("http");
+
+const server = http.createServer(function (req, res){
+    res.end("Hello world!");
+})
+
+server.listen(3000);
